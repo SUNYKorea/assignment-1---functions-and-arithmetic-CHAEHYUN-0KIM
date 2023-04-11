@@ -1,6 +1,8 @@
 # Name: Chaehyun Kim
 # SBUID: 115242485
-
+##################### SCORE ######################
+####### Score:  9.5/10
+#################################################
 # Remove the ellipses (...) when writing your solutions.
 
 # ---------------------------- Exercise I ---------------------------------------
@@ -34,12 +36,12 @@ def shoelace_triangle_area(x1, y1, x2, y2, x3, y3):
     return A
 
 def euclidean_distance(x1, y1, x2, y2):
-    d = (((x1-x2)**2)+((y1+y2)**2))**(1/2)
+    d = (((x1-x2)**2)+((y1+y2)**2))**(1/2)  # refrain from returning the entire equation as is. having everything in the return statement -> its not a good programming practice
     return d
     
 
 def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
-    P = ((((x1-x2)**2)+((y1-y2)**2))**(1/2))+((((x3-x2)**2)+((y3-y2)**2))**(1/2))+((((x1-x3)**2)+((y1-y3)**2))**(1/2))
+    P = ((((x1-x2)**2)+((y1-y2)**2))**(1/2))+((((x3-x2)**2)+((y3-y2)**2))**(1/2))+((((x1-x3)**2)+((y1-y3)**2))**(1/2))  # refrain from returning the entire equation as is
     return P
 
 
